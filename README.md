@@ -42,5 +42,18 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Brandless is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
+Brandless is an American direct-to-consumer e-commerce retailer of own-label food, beauty, personal care and household goods, founded in 2016 by Tina Sharkey and Ido Leffler and launched in July 2017. SoftBank-backed, it ceased operations on 10 February 2020; its assets were bought in June 2020 by Clarke Capital Partners and Ikonifi and the brand relaunched that summer under Utah-based ownership, later led by Cydni Tetro and then Tiffany Vail.
+
+## Why this profile is thin
+
+Brandless sold physical consumer packaged goods through a Shopify storefront and never ran a
+developer program, public API, SDK or webhook surface of its own. As of 2026-08-08 the
+`brandless.com` domain no longer resolves — DNS returns `SERVFAIL` and the delegated Cloudflare
+nameservers answer `REFUSED` — and the most recent archived captures (January 2026) show a
+domain-parking lander rather than the store. There is no live host left to probe for an OpenAPI,
+a `.well-known` document, an MCP endpoint or an agent card.
+
+The GitHub organization named `Brandless` (created 2012, one repository) predates the company and
+is unrelated; it is deliberately not wired into this profile.
+
 - https://forgeglobal.com/brandless_stock/

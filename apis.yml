@@ -1,7 +1,14 @@
 aid: brandless
 name: Brandless
-description: 'Brandless is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Brandless is an American direct-to-consumer e-commerce retailer of own-label
+  food, beauty, personal care and household goods, founded in 2016 by Tina Sharkey and
+  Ido Leffler and launched in July 2017. SoftBank-backed, it ceased operations on 10
+  February 2020; its assets were bought in June 2020 by Clarke Capital Partners and
+  Ikonifi and the brand relaunched that summer under Utah-based ownership, later led by
+  Cydni Tetro and then Tiffany Vail. The storefront ran on Shopify and sold physical
+  consumer packaged goods only — Brandless never operated a developer program, public
+  API, SDK or webhook surface of its own. As of this profile the brandless.com domain no
+  longer resolves and the site is parked, so there is no live company surface to profile.'
 url: https://raw.githubusercontent.com/api-evangelist/brandless/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +19,12 @@ created: '2026-08-08'
 modified: '2026-08-08'
 tags:
 - Company
+- E-Commerce
+- Retail
+- Consumer Packaged Goods
+- Direct To Consumer
+- Household Products
+- Personal Care
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,3 +34,29 @@ maintainers:
 common:
 - type: Website
   url: https://forgeglobal.com/brandless_stock/
+x-enrichment:
+  date: '2026-08-08'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: defunct
+  detail: >-
+    Brandless sold physical consumer packaged goods through a Shopify storefront and never
+    ran a developer program; its own domain brandless.com now returns SERVFAIL (the
+    delegated Cloudflare nameservers answer REFUSED) and the last archived captures show a
+    domain-parking lander, so there is no host left to probe for a spec, .well-known
+    document or agent card.
+  evidence:
+  - url: https://brandless.com/
+    status: 0
+  - url: https://www.brandless.com/
+    status: 0
+  - url: http://web.archive.org/web/20260118162303/http://brandless.com/
+    status: 200
+  - url: https://brandless.shop/
+    status: 200
+  - url: https://forgeglobal.com/brandless_stock/
+    status: 403
+  checked: '2026-08-08'
