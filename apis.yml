@@ -52,7 +52,7 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://forgeglobal.com/brandless_stock/
+  url: https://brandless.com
 x-enrichment:
   date: '2026-08-08'
   status: minimal
