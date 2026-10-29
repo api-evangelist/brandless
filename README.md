@@ -64,18 +64,69 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Brandless is an American direct-to-consumer e-commerce retailer of own-label food, beauty, personal care and household goods, founded in 2016 by Tina Sharkey and Ido Leffler and launched in July 2017. SoftBank-backed, it ceased operations on 10 February 2020; its assets were bought in June 2020 by Clarke Capital Partners and Ikonifi and the brand relaunched that summer under Utah-based ownership, later led by Cydni Tetro and then Tiffany Vail.
+Brandless is an American direct-to-consumer e-commerce retailer of own-label food, beauty, personal care and household goods, founded in 2016 by Tina Sharkey and Ido Leffler and launched in July 2017. SoftBank-backed, it ceased operations on 10 February 2020; its assets were bought in June 2020 by Clarke Capital Partners and Ikonifi and the brand relaunched that summer under Utah-based ownership, later led by Cydni Tetro and then Tiffany Vail. The storefront ran on Shopify and sold physical consumer packaged goods only — Brandless never operated a developer program, public API, SDK or webhook surface of its own. As of this profile the brandless.com domain no longer resolves and the site is parked, so there is no live company surface to profile.
 
-## Why this profile is thin
+**Areas:** Company · E-Commerce · Retail · Consumer Packaged Goods · Direct to Consumer · Household Products · Personal Care
 
-Brandless sold physical consumer packaged goods through a Shopify storefront and never ran a
-developer program, public API, SDK or webhook surface of its own. As of 2026-08-08 the
-`brandless.com` domain no longer resolves — DNS returns `SERVFAIL` and the delegated Cloudflare
-nameservers answer `REFUSED` — and the most recent archived captures (January 2026) show a
-domain-parking lander rather than the store. There is no live host left to probe for an OpenAPI,
-a `.well-known` document, an MCP endpoint or an agent card.
+## Brandless on APIs.io
 
-The GitHub organization named `Brandless` (created 2012, one repository) predates the company and
-is unrelated; it is deliberately not wired into this profile.
+Everything profiled for Brandless is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/brandless/](https://apis.io/providers/brandless/)** — or go straight to one of the APIs or properties below.
 
-- https://forgeglobal.com/brandless_stock/
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://brandless.com)
+
+## API Evangelist rating
+
+**Kin Score 2.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 44.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 0.0** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/brandless/](https://apis.io/providers/brandless/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Brandless: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/brandless/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
